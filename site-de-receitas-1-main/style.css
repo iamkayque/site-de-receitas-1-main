@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1a808;
+
+}
+
+menu {
+    background-color: #292827;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: fixed;
+    /* Fixa o elemento no topo da página */
+    top: 0;
+    /* Garante que o menu está no topo */
+    z-index: 2;
+    /* Faz com que o menu fique acima dos outros elementos */
+    width: 100%;
+}
+
+.menu-itens {
+    color: #fde404;
+    /*Define a cor do texto*/
+    text-decoration: none;
+    /*Retira o traço de link da palavra*/
+    padding: 10px 20px;
+    font-size: 18px;
+    /*Define o tamanho do texto*/
+    display: inline-block;
+    /*Deixa o item como o bloco em uma linha*/
+}
+
+.menu-itens:hover {
+    /*É um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento*/
+    background-color: #ebf568;
+    color: #2a292c;
+    width: 220px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    /*Arredondar as bordas de um 
+    elemento*/
+}
+
+#titulo1 {
+    margin-top: 80px;
+    /* Adiciona espaço para compensar o menu fixo */
+    margin-left: 1%;
+}
+
+.carrosselcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#titulo2 {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}
+
+#titulo3 {
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: overline;
+    color: black
+}
+section{
+    /*Estilizando a fonte do texto que está dentro da section*/
+    font-family: Arial, Helvetica, sans-serif;
+}

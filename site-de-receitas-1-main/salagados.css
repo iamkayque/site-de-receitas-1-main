@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(245, 170, 9);
+}
+
+menu {
+    background-color: rgb(17, 19, 19);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.menu-itens {
+    color: #fde404;
+    /*Define a cor do texto*/
+    text-decoration: none;
+    /*Retira o traço de link da palavra*/
+    padding: 10px 20px;
+    font-size: 18px;
+    /*Define o tamanho do texto*/
+    display: inline-block;
+    /*Deixa o item como o bloco em uma linha*/
+}
+
+.menu-itens:hover {
+    /*É um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento*/
+    background-color: #fde404;
+    color: #050505;
+    width: 220px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    /*Arredondar as bordas de um 
+    elemento*/
+}
+
+ul {
+    list-style-type: disc;
+    /* Define o tipo de marcador */
+    padding-left: 0;
+    /* Remove o padding padrão da lista */
+    margin: 20px auto;
+    /* Centraliza a lista */
+    text-align: left;
+    /* Garante que o texto dos itens fique alinhado à esquerda */
+    max-width: 200px;
+    /* Limita a largura da lista para centralização */
+}
+
+li {
+    margin-bottom: 5px;
+    /* Adiciona espaço entre os itens da lista */
+}
+
+#arroz {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Substitua por qualquer fonte que desejar */
+    font-weight: bold;
+    /* Opcional: define a fonte como negrito */
+}
+
+ol {
+    list-style-type: decimal;
+    /* Garante que os números apareçam */
+    padding-left: 20px;
+    /* Adiciona algum espaço à esquerda */
+    margin: 20px;
+    text-align: center
+}
+.caixa1{
+    padding:15px;
+    background-color: rgb(252, 190, 110);
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+table{
+    border: 1px solid;/*Cria uma borde de 1px de altura e dashed é a borda do tipo pontilhada*/
+    border-color: #d9d4e6; /*Aplica uma à borda*/
+}
+thead{ /*Estilização do cabeçalho- 1Linha da tabela*/
+    background-color: rgb(186, 201, 57);
+    color: #f1f1f1; /*Cor do texto*/
+    height: 15px; /*Altura da 1Linha*/
+}
+th{/*Estiliza cada célula do cabeçalho*/
+    width: 150px;/*largura da célula*/
+    text-align: center;/*Alinhamento horizontal do texto*/
+    align-items: center; /*alinhamento vertical do texto*/
+    border: #d0dbf8 solid;/*cor da bora*/
+}
+tbody{/*Estiliza o corpo da tabela - todas as linhas excetp a primeira*/
+    background-color: #bebd76;/*cor de fundo*/
+}
+td{/*Estiliza cada célula do corpo da tabela*/
+    text-align: center; /*Alinhamento horizontal do texto*/
+    border: rgb(209, 212, 29) solid;/*Cria uma borda com cor*/
+}
