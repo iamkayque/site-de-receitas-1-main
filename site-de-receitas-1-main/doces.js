@@ -3,7 +3,7 @@ function calcular() {
   const linhas = document.querySelectorAll("tbody tr");
   let totalGeral = 0;
 
-  // Itera sobre cada linha
+  // Itera sobre cada linhaa
   linhas.forEach((linha) => {
       // Obtém os campos de preço, quantidade e total
       const precoInput = linha.querySelector(".num");
